@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <template id="assets_pos" name="multi barcode pos scanning" inherit_id="point_of_sale.assets">
+            <xpath expr="." position="inside">
+							<script type="text/javascript" src="/pos_add_product_barcode_no_reload/static/src/app/store/abc.js"/>
+            </xpath>
+        </template>
+</odoo>
